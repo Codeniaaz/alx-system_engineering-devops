@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(echo "$1" | tr '[:lower:]' '[:upper:]' | sed 's/[a-m]/[n-z]/g; s/[n-z]/[a-m]/g')
+echo $(echo "$1" | tr '[:alpha:]' 'N-ZA-Mn-za-m')
