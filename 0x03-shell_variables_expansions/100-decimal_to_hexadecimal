@@ -1,2 +1,2 @@
 #!/bin/bash
-echo $(bc <<< "scale=16; ${DECIMAL}")
+echo $((16#${DECIMAL}))
