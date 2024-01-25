@@ -1,5 +1,4 @@
 #!/usr/bin/env bash
-
 # This line prints a string ten times
 
 for _ in {1..10}; do
